@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
         host: config['content-api-host'],
         key: config['content-api-key'],
         version: 'v2'
-    }};
+    });
 				       
 	$('.tilt').tilt({
 		   glare: false,
